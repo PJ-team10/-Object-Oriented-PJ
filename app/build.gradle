@@ -1,8 +1,11 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android-extensions'
 }
-
+androidExtensions {
+    experimental = true
+}
 android {
     namespace 'com.example.object_oriented_pj_10'
     compileSdk 32
@@ -29,6 +32,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    viewBinding {
+        enabled = true
     }
 }
 
