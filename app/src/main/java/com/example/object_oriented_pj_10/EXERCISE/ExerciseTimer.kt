@@ -20,7 +20,6 @@ class ExerciseTimer : Fragment() {
     var time_in_milli_seconds = 0L;
     lateinit var name: TextView
     lateinit var timer: TextView
-    private val repository = MyExerciseRepository();
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

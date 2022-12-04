@@ -13,7 +13,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.object_oriented_pj_10.R
 import com.example.object_oriented_pj_10.databinding.FragmentExerciseBinding
 import kotlinx.android.synthetic.main.fragment_exercise.*
-import kotlinx.android.synthetic.main.list_exercise.*
 
 
 class ExerciseFragment : Fragment() {

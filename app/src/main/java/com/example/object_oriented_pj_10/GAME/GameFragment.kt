@@ -15,7 +15,6 @@ import com.example.object_oriented_pj_10.databinding.FragmentGameBinding
 
 
 class GameFragment : Fragment() {
-
     var binding:FragmentGameBinding?=null
     private var currentCountDownTimer: CountDownTimer? = null
     private var tickingSoundId: Int? = null
