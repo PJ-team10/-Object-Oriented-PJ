@@ -22,8 +22,6 @@ class CookFragment : Fragment() {
     lateinit var countDownTimer2: CountDownTimer
     lateinit var countDownTimer3: CountDownTimer
 
-
-
     var timeRunning = false
     var firstState=false
 
@@ -228,8 +226,6 @@ class CookFragment : Fragment() {
         timerLeftText2+="$sec2"
         binding?.timerText2?.text=timerLeftText2
     }
-
-
 
 
     private fun viewMode(mode:String){

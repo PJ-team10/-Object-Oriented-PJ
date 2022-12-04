@@ -44,7 +44,7 @@
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
-        android:name="com.example.object_oriented_pj_10.GameFragment"
+        android:name="com.example.object_oriented_pj_10.GAME.GameFragment"
         android:label="fragment_game"
         tools:layout="@layout/fragment_game" />
 
