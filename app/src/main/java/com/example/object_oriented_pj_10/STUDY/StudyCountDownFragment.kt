@@ -25,7 +25,7 @@ class StudyCountDownFragment : Fragment() {
     var time =0L // 초기 값
     var tempTime= 0L // 실행 시간
 
-    val soundPool = SoundPool.Builder().build()
+    val soundPool = SoundPool.Builder().build() //
     private var endSoundId: Int? =null
 
     override fun onAttach(context: Context) {
@@ -133,6 +133,7 @@ class StudyCountDownFragment : Fragment() {
         binding?.timerText?.text=timerLeftText
     }
 
+    // 소리가 나는 함수.
     private fun initSounds() {
         endSoundId = soundPool.load(mainActivity, R.raw.timer_bell, 1)
     }
